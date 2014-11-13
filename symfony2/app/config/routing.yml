@@ -1,0 +1,6 @@
+j_mac_demo:
+    resource: "@JMacDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+random:
+    path:     /hello/
+    defaults: { _controller: JMacDemoBundle:Hello:index }
